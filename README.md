@@ -1,5 +1,7 @@
 # myAutoHotkey
-my AutoHotkey configuation
+my AutoHotkey configuration
+
+This project is not documented. If you want to ask questions, please make issue and ask :).
 
 ## Reference
 reg files refer:
