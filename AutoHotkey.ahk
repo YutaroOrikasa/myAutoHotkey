@@ -28,3 +28,5 @@ F13 & d:: send "{Blind}{Del}"
 #Include "AutoHotkey.d\F13_as_ctrl.ahk"
 
 F13 & F1:: send "{Blind}{CapsLock}"
+
+RAlt::RCtrl
