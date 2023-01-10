@@ -13,6 +13,7 @@ F13 & n:: send "{Blind}{F12}n"
 #HotIf WinActive("ahk_exe WindowsTerminal.exe")
 F13 & p:: send "{Blind}{CtrlDown}p{CtrlUp}"
 F13 & n:: send "{Blind}{CtrlDown}n{CtrlUp}"
+F13 & d:: send "{Blind}{CtrlDown}d{CtrlUp}"
 #HotIf
 
 F13 & p:: send "{Blind}{Up}"
