@@ -30,4 +30,8 @@ F13 & d:: send "{Blind}{Del}"
 
 F13 & F1:: send "{Blind}{CapsLock}"
 
+; IntlRo as '_' (like mac)
+sc073:: send "{Blind}_"
+F13 & sc073:: send "{Blind}{U+001f}"
+
 RAlt::RCtrl
