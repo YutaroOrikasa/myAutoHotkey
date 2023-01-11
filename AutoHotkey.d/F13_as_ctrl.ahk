@@ -17,7 +17,22 @@ F13 & x:: send "{Blind}{CtrlDown}x{CtrlUp}"
 F13 & c:: send "{Blind}{CtrlDown}c{CtrlUp}"
 F13 & v:: send "{Blind}{CtrlDown}v{CtrlUp}"
 F13 & m:: send "{Blind}{CtrlDown}m{CtrlUp}"
+
+; BEGIN sign keys for japanese keyboard
+F13 & -:: send "{Blind}{CtrlDown}-{CtrlUp}"
+F13 & ^:: send "{Blind}{CtrlDown}^{CtrlUp}"
+F13 & \:: send "{Blind}{CtrlDown}\{CtrlUp}"
+F13 & @:: send "{Blind}{CtrlDown}@{CtrlUp}"
+F13 & [:: send "{Blind}{CtrlDown}[{CtrlUp}"
+F13 & ]:: send "{Blind}{CtrlDown}]{CtrlUp}"
+F13 & ,:: send "{Blind}{CtrlDown},{CtrlUp}"
+F13 & .:: send "{Blind}{CtrlDown}.{CtrlUp}"
 F13 & /:: send "{Blind}{CtrlDown}/{CtrlUp}"
+
+; ';' and :
+F13 & sc027:: send "{Blind}{CtrlDown}{sc027}{CtrlUp}"
+F13 & sc028:: send "{Blind}{CtrlDown}{sc028}{CtrlUp}"
+; END sign keys for japanese keyboard
 
 F13 & Space:: send "{Blind}{CtrlDown}{Space}{CtrlUp}"
 F13 & Right:: send "{Blind}{CtrlDown}{Right}{CtrlUp}"
