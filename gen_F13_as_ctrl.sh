@@ -27,6 +27,6 @@ echo '; END sign keys for japanese keyboard'
 
 echo
 
-for chr in  Space Right Left Up Down; do
+for chr in  Space Tab Right Left Up Down; do
     echo "F13 & $chr:: send \"{Blind}{CtrlDown}{$chr}{CtrlUp}\""
 done

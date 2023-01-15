@@ -35,6 +35,7 @@ F13 & sc028:: send "{Blind}{CtrlDown}{sc028}{CtrlUp}"
 ; END sign keys for japanese keyboard
 
 F13 & Space:: send "{Blind}{CtrlDown}{Space}{CtrlUp}"
+F13 & Tab:: send "{Blind}{CtrlDown}{Tab}{CtrlUp}"
 F13 & Right:: send "{Blind}{CtrlDown}{Right}{CtrlUp}"
 F13 & Left:: send "{Blind}{CtrlDown}{Left}{CtrlUp}"
 F13 & Up:: send "{Blind}{CtrlDown}{Up}{CtrlUp}"
