@@ -29,7 +29,8 @@ F13 & ,:: send "{Blind}{CtrlDown},{CtrlUp}"
 F13 & .:: send "{Blind}{CtrlDown}.{CtrlUp}"
 F13 & /:: send "{Blind}{CtrlDown}/{CtrlUp}"
 
-; ';' and :
+; ^, ';' and :
+F13 & sc00D:: send "{Blind}{CtrlDown}{sc00D}{CtrlUp}"
 F13 & sc027:: send "{Blind}{CtrlDown}{sc027}{CtrlUp}"
 F13 & sc028:: send "{Blind}{CtrlDown}{sc028}{CtrlUp}"
 ; END sign keys for japanese keyboard

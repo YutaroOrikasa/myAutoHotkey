@@ -16,9 +16,9 @@ for chr in $(echo '-^\@[],./' | grep -oE '.'); do
 done
 
 echo
-# ; and :
-echo "; ';' and :"
-for chr in sc027 sc028; do
+# ^, ; and :
+echo "; ^, ';' and :"
+for chr in sc00D sc027 sc028; do
     echo "F13 & $chr:: send \"{Blind}{CtrlDown}{$chr}{CtrlUp}\""
 done
 
