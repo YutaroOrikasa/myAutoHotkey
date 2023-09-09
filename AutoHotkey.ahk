@@ -32,5 +32,3 @@ F13 & d:: send "{Blind}{Del}"
 
 ; ctrl+IntlRo as '^_' (like mac)
 F13 & sc073:: send "{Blind}{U+001f}"
-
-RAlt::RCtrl
